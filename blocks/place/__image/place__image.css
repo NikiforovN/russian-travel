@@ -2,3 +2,8 @@
   max-width: 100%;
   object-fit: cover;
 }
+@media screen and (max-width: 540px) {
+  .place__image {
+    margin-bottom: 32px;
+  }
+}
