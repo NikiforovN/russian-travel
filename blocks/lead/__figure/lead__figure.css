@@ -1,0 +1,19 @@
+.lead__figure {
+  max-width: 76.875%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1120px) {
+  .lead__figure {
+    max-width: 90.625%;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 960px) {
+    .lead__figure {
+      max-width: 100%;
+      transition: 0.5s;
+    }
+  }

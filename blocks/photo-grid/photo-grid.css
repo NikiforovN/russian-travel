@@ -1,0 +1,15 @@
+.photo-grid {
+  padding-top: 92px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 960px) {
+  .photo-grid {
+    padding-top: 88px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .photo-grid {
+    padding-top: 64px;
+  }
+}

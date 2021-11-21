@@ -1,0 +1,10 @@
+.intro__container {
+  max-width: 690px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 920px) {
+  .intro__container {
+    max-width: 100%;
+  }
+}

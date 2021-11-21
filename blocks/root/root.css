@@ -1,0 +1,25 @@
+.root {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "Inter Regular", "Inter Bold", "Inter Black", Arial, sans-serif;
+  background-color: #2a2c2f;
+  text-rendering: optimizeLegibility;
+}
+@media screen and (max-width: 1120px) {
+  .root {
+    max-width: 1024px;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 960px) {
+  .root {
+    max-width: 768px;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 540px) {
+  .root {
+    max-width: 320px;
+    transition: 0.5s;
+  }
+}
