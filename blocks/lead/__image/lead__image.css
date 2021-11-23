@@ -3,15 +3,7 @@
   object-fit: cover;
   margin: 0;
 }
-@media screen and (max-width: 1120px) {
-  .lead__image {
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 960px) {
-  .lead__image {
-    max-width: 100%;
-  }
-}
+
+
 
 

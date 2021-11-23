@@ -6,12 +6,20 @@
   line-height: 1.22;
   text-align: center;
   margin-top: 32px;
+  margin-bottom: 64px;
   z-index: 3;
+}
+@media screen and (max-width: 1120px) {
+  .cover__subtitle {
+    margin-bottom: 56px;
+  }
 }
 @media screen and (max-width: 540px) {
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;
     line-height: 1.14;
+    margin-top: 16px;
+    margin-bottom: 33px;
   }
 }

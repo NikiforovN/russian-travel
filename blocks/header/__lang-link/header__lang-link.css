@@ -1,20 +1,19 @@
 .header__lang-link {
   margin-right: 18px;
   margin-bottom: 6px;
-  font-family: Inter Regular;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.17;
   color: #fff;
+  text-decoration: none;
 }
 .header__lang-link:last-of-type {
   margin-right: 0;
-  text-decoration: none;
 }
 @media screen and (max-width: 540px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 0.9;
+    line-height: 1.11;
     transition: 0.5s;
   }
 }
