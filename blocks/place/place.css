@@ -22,8 +22,14 @@
 }
 @media screen and (max-width: 920px) {
   .place {
-    max-width: 90.625%;
+    padding-top: 72px;
     gap: 48px 28px;
+  }
+  .place:first-of-type {
+    padding-top: 88px;
+  }
+  .place:last-of-type {
+    margin-bottom: 90px;
   }
 }
 @media screen and (max-width: 540px) {
