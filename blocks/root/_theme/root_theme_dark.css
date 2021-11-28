@@ -1,0 +1,7 @@
+.root_theme_dark {
+  background-color: #2a2c2f;
+  color: #fff;
+  --color-links: #fff;
+  --bg-color-toggle-control:#2a2c2f;
+  --bg-color-toggle:rgb(188 179 179 / 87%);;
+}

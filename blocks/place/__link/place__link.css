@@ -4,7 +4,7 @@
   font-size: 18px;
   line-height: 1.22;
   text-decoration-line: underline;
-  color: #ffffff;
+  color: var(--color-links);
   margin-top: 12px;
   margin-bottom: 0;
 }

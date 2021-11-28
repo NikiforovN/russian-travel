@@ -1,0 +1,9 @@
+.footer__theme-toggle{
+    display: flex;
+    align-items: baseline;
+}
+@media screen and (max-width:540px) {
+    .footer__theme-toggle{
+        margin-bottom: 32px;
+    }
+}

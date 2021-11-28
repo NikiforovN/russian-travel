@@ -1,0 +1,13 @@
+.theme-toggle__text {
+  padding: 6.4px 0.67em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  background-color: transparent;
+  height: 31px;
+  transition: .5s;
+}
+.theme-toggle__text:hover{
+  opacity: 0.8;
+}

@@ -4,7 +4,7 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 1.17;
-  color: #fff;
+  color: var(--color-links);
   text-decoration: none;
 }
 .header__lang-link:last-of-type {

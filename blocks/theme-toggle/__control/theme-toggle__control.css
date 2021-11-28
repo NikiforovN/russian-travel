@@ -1,0 +1,8 @@
+.theme-toggle__control{
+    display: none;
+}
+.theme-toggle__control:checked + .theme-toggle__text{
+    opacity: 1;
+    background-color:var(--bg-color-toggle-control);
+    border-radius: 2em;
+}
