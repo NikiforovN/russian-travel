@@ -1,6 +1,6 @@
 .footer__theme-toggle{
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 @media screen and (max-width:540px) {
     .footer__theme-toggle{

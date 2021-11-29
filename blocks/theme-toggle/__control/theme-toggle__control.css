@@ -1,8 +1,17 @@
-.theme-toggle__control{
-    display: none;
+.theme-toggle__control {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: 0 0;
+  cursor: pointer;
 }
-.theme-toggle__control:checked + .theme-toggle__text{
-    opacity: 1;
-    background-color:var(--bg-color-toggle-control);
-    border-radius: 2em;
+.theme-toggle__control:checked + .theme-toggle__text {
+  background-color: var(--bg-color-toggle-control);
+  opacity: 1;
 }
