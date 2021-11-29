@@ -1,7 +1,7 @@
 .theme-toggle{
     border-radius: 2em;
     background-color: var(--bg-color-toggle);
-    display: inline-flex;
+    display: flex;
     align-items: baseline;
     padding: 0.4em;
 }
