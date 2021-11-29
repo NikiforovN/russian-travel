@@ -1,6 +1,7 @@
 .theme-toggle__item {
   cursor: pointer;
   position: relative;
+  display: flex;
 }
 
   

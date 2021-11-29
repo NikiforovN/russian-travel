@@ -3,5 +3,5 @@
     background-color: var(--bg-color-toggle);
     display: flex;
     align-items: baseline;
-    padding: 0.4em;
+    padding: 2px;
 }
